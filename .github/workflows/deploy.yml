@@ -1,8 +1,5 @@
 name: "Deploy"
-
-on:
-  release:
-    types: [published]
+on: [push]
 
 jobs:
   deploy:
